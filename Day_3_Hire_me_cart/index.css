@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color:rgb(237,234,224);
+}
+.container{
+  background-color: rgb(31,31,32);  
+  color: white;
+  padding: 2rem;
+  width:20rem;
+  margin: .5rem;
+  border-radius: .4rem;
+
+}
+.cart-top-navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cart-top-navigation li,
+.cart-top-navigation ul{
+    list-style: none;
+    font-size:1.2rem;
+
+}
+.cart-top-navigation ul i {
+    margin-left: 10px;
+}
+.user_image{
+    position: relative;
+    width: 100px;
+    height: 200px;
+    margin:0 auto;
+}
+.user_image img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius:50%;
+}
+.user_name, .about_user{
+    text-align:center;
+    margin-top:1.5rem ;
+}
+.user_name{
+    font-size:1.4em;
+}
+.hire_me{
+    margin: 1.5rem auto;
+    display: block;
+    border:none;
+    padding: .8rem 1.6rem;
+    border-radius:2rem;
+    font-size:1rem;
+    cursor: pointer;
+}
+.hire_me:hover {
+    background: radial-gradient(circle at 100% 107%, #fdf497 0%, #fdf497 5%#fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.social_container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.social_items li{
+    list-style:none;
+    padding: 1rem;
+
+    border-radius:15%;
+    
+}
+.linkdin{
+    background-color: #0B63BD;
+}
+.social_item i {
+    font-size: 1.5rem;
+}
+.github{
+    background-color: black;
+}
+.social_items a{
+    color: white;
+}
